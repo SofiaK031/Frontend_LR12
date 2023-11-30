@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
         else if (translatedCorrectly / numberOfCards > 0.5) { wind = "Hurray! You are halfway to success!" + wind; }
         else { wind = "Perhaps, you should get serious about learning English!" + wind; }
         $("#wind p").html(wind);
-        $("#wind").dialog().css("background", "url('images/background2.jpg') no-repeat center center fixed");
+        $("#wind").dialog().css("background", "url('./images/background2.jpg') no-repeat center center fixed");
     }
     function inputNotAllowed() {
         userFieldActive = false;
