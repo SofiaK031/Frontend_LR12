@@ -54,7 +54,8 @@ input[type='radio'] {
   margin-left: 15px;
 }
 
-#prim {  margin-left: 15px; }
+#prim {  margin-left: 5px; }
+#adv {margin: 0px 5px 0px 5px}
 
 #test-card {
   width: 100%;
