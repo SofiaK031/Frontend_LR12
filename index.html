@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+<title>Лабораторна робота 12</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="images/favicon.png">
+<link rel="stylesheet" href="jQuery/jquery-ui.min.css">
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/script.js" defer>
+</script>
+</head>
+<body>
+    <main>
+        <div class="main-content">
+            <div id="difficult">
+                <fieldset>
+                    <legend>Difficulty level</legend>
+                    <input type="radio" name="difficulty" id="prim" checked="checked" value="Primary">
+                    <label for="prim">Primary</label>
+                    <input type="radio" name="difficulty" id="inter" value="Intermediate">
+                    <label for="inter">Intermediate</label>
+                    <input type="radio" name="difficulty" id="adv" value="Advanced">
+                    <label for="adv">Advanced</label>
+                </fieldset>
+            </div>
+            <div id="test-card">
+                <div id="word-to-translate">Butterfly</div>
+            </div>
+            <div class="action">
+                <div class="stage">
+                    <div id="back">⇦</div>
+                    <div id="actual-stage">1/15</div>
+                    <div id="next">⇨</div>
+                </div>
+                <div class="answer">
+                    <input id="user-word" type="text" placeholder="Відповідь">
+                </div>
+                <div class="result">
+                    <table>
+                        <thead><span id="main-title">Results</span></thead>
+                        <tbody>
+                            <tr>
+                                <td id="translated-correctly">Correct</td>
+                                <td id="mistakes">Mistakes</td>
+                                <td id="words-left">Words left</td>
+                            </tr>
+                            <tr>
+                                <td id="number-of-correct">0</td>
+                                <td id="number-of-mistakes">0</td>
+                                <td id="words-left-number">15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="wind" title="Announcement of results">
+            <p>Your result is _ correct out of _ words. To try again, refresh the page.</p>
+        </div>
+    </main>
+    <p id="validation">
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Правильний CSS!">
+        </a>
+    </p>
+</body>
+</html>
