@@ -47,11 +47,6 @@ legend{
   font-weight: bold;
 }
 
-
-/*input[type='radio'] ::active {
-  background: violet;
-}*/
-
 label { margin-right: 15px; }
 
 input[type='radio'] {
@@ -59,7 +54,7 @@ input[type='radio'] {
   margin-left: 15px;
 }
 
-#prim {  margin-left: 35px; }
+#prim {  margin-left: 15px; }
 
 #test-card {
   width: 100%;
