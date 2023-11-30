@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         $("#user-word").focus();
     }
     //Початок виконання
-    /*$("input[type='radio']").checkboxradio({ icon: true });*/
+    $("input[type='radio']").checkboxradio({ icon: true });
     numberOfCards = Math.floor(wordsToTranslate.lenth * 0.35)
     init(numberOfCards);
 
