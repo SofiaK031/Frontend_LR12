@@ -49,6 +49,10 @@ legend{
 
 label { margin-right: 15px; }
 
+label[for='adv'] {
+  margin-right: 0px;
+}
+
 input[type='radio'] {
   margin-right: 0px;
   margin-left: 15px;
